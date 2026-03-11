@@ -167,6 +167,13 @@
                 "2023": "Calculated from Tax Return Data"
             }
         },
+        "AHL_deduction": {
+            "type": "float",
+            "desc": "Affordable Housing Levy Deduction",
+            "form": {
+                "2025": "Form IT1 - 11.5 - Calculated from Tax Return Data"
+            }
+        },
         "disability_exemption": {
             "type": "float",
             "desc": "disability_exemption",

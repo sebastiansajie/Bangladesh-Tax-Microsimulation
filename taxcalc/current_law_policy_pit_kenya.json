@@ -134,6 +134,60 @@
         "out_of_range_maxmsg": "",
         "out_of_range_action": "stop"
     },
+    "_rate6": {
+        "long_name": "Marginal PIT Rate6",
+        "description": "PIT Rate for Consumption of Household_Goods_Services",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.35
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate7": {
+        "long_name": "Marginal PIT Rate7",
+        "description": "PIT Rate for Consumption of Household_Goods_Services",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.35
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
     "_tbrk1": {
         "long_name": "PIT Threshold1",
         "description": "PIT Rate for Consumption of Health",
@@ -236,7 +290,7 @@
         "integer_value": false,
         "range": {
             "min": 6000000,
-            "max": 9e+99
+            "max": 1e+99
         },
         "out_of_range_minmsg": "",
         "out_of_range_maxmsg": "",
@@ -257,12 +311,66 @@
         "col_var": "",
         "col_label": "",
         "value": [
-            9e+99
+            1e+99
         ],
         "boolean_value": false,
         "integer_value": false,
         "range": {
             "min": 9600000,
+            "max": 2e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk6": {
+        "long_name": "PIT Threshold6",
+        "description": "PIT Rate for Consumption of Education",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            2e+99
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 1e+99,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk7": {
+        "long_name": "PIT Threshold7",
+        "description": "PIT Rate for Consumption of Education",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            9e+99
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 2e+99,
             "max": 9e+99
         },
         "out_of_range_minmsg": "",
@@ -345,6 +453,33 @@
         "range": {
             "min": 0,
             "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_AHL_deduction_rate": {
+        "long_name": "Affordable Housing Levy Deduction Rate",
+        "description": "",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.015
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
         },
         "out_of_range_minmsg": "",
         "out_of_range_maxmsg": "",

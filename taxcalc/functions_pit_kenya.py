@@ -55,12 +55,21 @@ def cal_pension_deduction(pension_deduction_threshold, pension_contribution,
     return pension_deduction
 
 @iterate_jit(nopython=True)
-def cal_total_deductions(mortgage_deduction, pension_deduction, hosp_tot_deposit_year,    
+def cal_ahl_deduction(AHL_deduction_rate, total_income,     
+                           AHL_deduction):
+    """
+    Compute Affordable Housing Levy.
+    """
+    AHL_deduction = AHL_deduction_rate * total_income
+    return AHL_deduction
+
+@iterate_jit(nopython=True)
+def cal_total_deductions(mortgage_deduction, pension_deduction, hosp_tot_deposit_year, AHL_deduction,  
                            total_deductions):
     """
     Compute total gross income.
     """
-    total_deductions = mortgage_deduction+pension_deduction+hosp_tot_deposit_year
+    total_deductions = mortgage_deduction+pension_deduction+AHL_deduction+hosp_tot_deposit_year
     return total_deductions
 
 @iterate_jit(nopython=True)
@@ -153,7 +162,9 @@ def cal_ti_behavior(rate1, rate2, rate3, rate4, rate5, tbrk1,
     return income_wage_behavior
 
 @iterate_jit(nopython=True)
-def cal_pit_w(rate1, rate2, rate3, rate4, rate5, tbrk1, tbrk2, tbrk3, tbrk4, tbrk5, income_wage_behavior, pitax_w):
+def cal_pit_w(rate1, rate2, rate3, rate4, rate5, rate6, rate7, 
+              tbrk1, tbrk2, tbrk3, tbrk4, tbrk5, tbrk6, tbrk7,
+              income_wage_behavior, pitax_w):
     """
     Compute PIT.
     """
@@ -162,7 +173,9 @@ def cal_pit_w(rate1, rate2, rate3, rate4, rate5, tbrk1, tbrk2, tbrk3, tbrk4, tbr
                rate2 * min(tbrk2 - tbrk1, max(0., inc - tbrk1)) +
                rate3 * min(tbrk3 - tbrk2, max(0., inc - tbrk2)) +
                rate4 * min(tbrk4 - tbrk3, max(0., inc - tbrk3)) +
-               rate5 * max(0., inc - tbrk4))
+               rate5 * min(tbrk5 - tbrk4, max(0., inc - tbrk4)) +
+               rate6 * min(tbrk6 - tbrk5, max(0., inc - tbrk5)) +
+               rate7 * max(0., inc - tbrk6))
     return pitax_w
 
 @iterate_jit(nopython=True)

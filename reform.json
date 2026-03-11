@@ -1,1 +1,20 @@
-{}
+{
+  "1": {
+    "selected_item": "rate6",
+    "selected_year": [
+      "2027"
+    ],
+    "selected_value": [
+      "0.40"
+    ]
+  },
+  "2": {
+    "selected_item": "tbrk5",
+    "selected_year": [
+      "2027"
+    ],
+    "selected_value": [
+      "12000000"
+    ]
+  }
+}

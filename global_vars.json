@@ -32,7 +32,7 @@
   "vat_function_names_filename": "function_names_vat.json",
   "vat_distribution_json_filename": "vat_distribution.json",
   "vat_id_var": "id_n",
-  "pit_display_distribution_table_byincome": 1,
+  "pit_display_distribution_table_byincome": 0,
   "pit_display_distribution_table_bydecile": 0,
   "pit_display_revenue_table": 1,
   "cit_display_distribution_table_byincome": 0,
@@ -41,11 +41,7 @@
   "vat_display_distribution_table_byincome": 0,
   "vat_display_distribution_table_bydecile": 0,
   "vat_display_revenue_table": 1,
-  "kakwani_list": [
-    0.59070372944097,
-    0.16083332466691125,
-    0.16083332466691125
-  ],
+  "kakwani_list": [],
   "GDP_Nominal": {
     "2023": 15206.0,
     "2024": 17085.0,
@@ -61,12 +57,7 @@
   "percent_gdp": 0,
   "charts_ready": 1,
   "chart_list": [
-    "pit_revenue_projection",
-    "pit_distribution_table",
-    "pit_distribution_table_top1",
-    "pit_distribution_table_income_bins",
-    "pit_etr",
-    "pit_lorenz_curve"
+    "pit_revenue_projection"
   ],
   "show_error_log": 0,
   "verbose": 0,
@@ -78,7 +69,7 @@
   "pit_adjust_behavior": 0,
   "cit_adjust_behavior": 0,
   "vat_adjust_behavior": 0,
-  "pit_distribution_table": 1,
+  "pit_distribution_table": 0,
   "pit_display_distribution_table": 0,
   "pit_display_distribution_table_by_attribute": 0,
   "cit_distribution_table": 0,
