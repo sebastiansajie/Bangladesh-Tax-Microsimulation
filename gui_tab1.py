@@ -57,14 +57,17 @@ def initialize_vars(self):
     self.vars['pit_display_distribution_table_byincome'] = 0
     self.vars['pit_display_distribution_table_bydecile'] = 0
     self.vars['pit_display_revenue_table'] = 1
+    self.vars['pit_revenue_with_reform_file'] = 0
     
     self.vars['cit_display_distribution_table_byincome'] = 0
     self.vars['cit_display_distribution_table_bydecile'] = 0
     self.vars['cit_display_revenue_table'] = 1
+    self.vars['cit_revenue_with_reform_file'] = 0
     
     self.vars['vat_display_distribution_table_byincome'] = 0
     self.vars['vat_display_distribution_table_bydecile'] = 0
     self.vars['vat_display_revenue_table'] = 1
+    self.vars['pit_revenue_with_reform_file'] = 0
     
     self.vars['kakwani_list'] = []
     

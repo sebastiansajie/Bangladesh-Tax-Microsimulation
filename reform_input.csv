@@ -1,9 +1,1 @@
 ﻿Policy Parameter,Year,Value
-tbrk3,2027,1000001
-tbrk4,2027,6000000
-rate4,2027,0.35
-rate5,2027,0.40
-disability_exemption_threshold,2027,1000000
-mortgage_deduction_threshold,2027,250000
-insurance_relief_threshold,2027,30000
-pension_deduction_threshold,2027,200000

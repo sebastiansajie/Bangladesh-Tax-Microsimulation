@@ -42,7 +42,10 @@ def display_elasticity(self, widget, tax_type, block_1_title_pos_x):
             self.tab_elasticity = super_combo(self.TAB3, self.elasticity_json, 'threshold', 'value', 0.01, 0.20, editable_field_year=1, elasticity=1, num_combos=num_combos)
             (self.button_save_elasticity, self.elasticity_widget_dict) = self.tab_elasticity.display_widgets(self.TAB3)
             self.elasticity_widget_dict[1][1].config(values=self.tab_elasticity.policy_options(self.elasticity_json))
-            self.button_save_elasticity.configure(command=self.clicked_generate_policy_revenues)
+            #self.button_save_elasticity.configure(command=self.clicked_generate_policy_revenues)
+            self.button_save_elasticity.configure(
+                command=lambda: self.clicked_generate_policy_revenues(self.input_file_var.get())
+            )
             #self.button_save_elasticity.configure(command=self.clicked_generate_policy_revenues('rev_behavior'))
         else:
             self.save_inputs()

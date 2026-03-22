@@ -103,11 +103,13 @@ def cal_pit_c(interest_WHT_rate, capital_income, pitax_c):
     return pitax_c
 
 @iterate_jit(nopython=True)
-def cal_ti_behavior(rate1, rate2, rate3, rate4, rate5, tbrk1, 
-                    tbrk2, tbrk3, tbrk4, tbrk5,
+def cal_ti_behavior(rate1, rate2, rate3, rate4, rate5, rate6, rate7, 
+                    tbrk1, tbrk2, tbrk3, tbrk4, tbrk5, tbrk6, tbrk7,
                     rate1_curr_law, rate2_curr_law, rate3_curr_law, 
-                    rate4_curr_law, rate5_curr_law, tbrk1_curr_law, tbrk2_curr_law, 
+                    rate4_curr_law, rate5_curr_law, rate6_curr_law, rate7_curr_law,
+                    tbrk1_curr_law, tbrk2_curr_law, 
                     tbrk3_curr_law, tbrk4_curr_law, tbrk5_curr_law,
+                    tbrk6_curr_law, tbrk7_curr_law,
                     elasticity_pit_taxable_income_threshold,
                     elasticity_pit_taxable_income_value, net_taxable_income,
                     income_wage_behavior):
@@ -140,8 +142,12 @@ def cal_ti_behavior(rate1, rate2, rate3, rate4, rate5, tbrk1,
         marg_rate=rate3        
     elif income_wage_l<=tbrk4:
         marg_rate=rate4
-    else:         
+    elif income_wage_l<=tbrk5:
         marg_rate=rate5
+    elif income_wage_l<=tbrk6:
+            marg_rate=rate6
+    else:         
+        marg_rate=rate7
         
     if income_wage_l<0:
         marg_rate_curr_law=0
@@ -152,9 +158,13 @@ def cal_ti_behavior(rate1, rate2, rate3, rate4, rate5, tbrk1,
     elif income_wage_l<=tbrk3_curr_law:
         marg_rate_curr_law=rate3_curr_law
     elif income_wage_l<=tbrk4_curr_law:
-        marg_rate_curr_law=rate4_curr_law         
+        marg_rate_curr_law=rate4_curr_law    
+    elif income_wage_l<=tbrk5_curr_law:
+        marg_rate_curr_law=rate5_curr_law  
+    elif income_wage_l<=tbrk6_curr_law:
+        marg_rate_curr_law=rate6_curr_law          
     else:
-        marg_rate_curr_law=rate5_curr_law
+        marg_rate_curr_law=rate7_curr_law
     
     frac_change_net_of_pit_rate = ((1-marg_rate)-(1-marg_rate_curr_law))/(1-marg_rate_curr_law)
     frac_change_income_wage = elasticity*(frac_change_net_of_pit_rate)  

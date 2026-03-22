@@ -1,8 +1,8 @@
 ﻿parameter,filename
 DEFAULTS_FILENAME,current_law_policy_pit_kenya.json
 GROWFACTORS_FILENAME,growfactors_pit_kenya.csv
-pit_data_filename,pit_kenya.csv
-pit_weights_filename,pit_weights_kenya.csv
+pit_data_filename,synthetic_bootstrap_pit_kenya.csv
+pit_weights_filename,synthetic_bootstrap_pit_weights_kenya.csv
 pit_records_variables_filename,records_variables_pit_kenya.json
 pit_benchmark_filename,tax_incentives_benchmark_pit_kenya.json
 pit_functions_filename,functions_pit_kenya.py

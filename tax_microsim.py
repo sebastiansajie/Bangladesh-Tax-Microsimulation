@@ -361,7 +361,7 @@ class Application(tk.Frame):
         #print('block_widget_dict ', self.block_widget_dict)
         #print('length block_widget_dict ', len(self.block_widget_dict))
         num_changes = len(widget_dict)
-        self.selected_attribute_widget
+        #self.selected_attribute_widget
         #print(widget_dict)
         #print('num_changes ', num_changes)
         for num in range(1, num_changes+1):
@@ -398,17 +398,27 @@ class Application(tk.Frame):
     
     def clicked_generate_policy_revenues_from_reform_file(self, reform_filename):
         df = pd.read_csv(reform_filename)
-        self.block_selected_dict = {}
+        self.block_selected_dict_file = {}
         for idx, row in df.iterrows():
             entry = {
                     "selected_item": str(row["Policy Parameter"]),
                     "selected_year": [str(row["Year"])],
                     "selected_value": [str(row["Value"])]
                     }
-            self.block_selected_dict[str(idx + 1)] = entry  # JSON keys start from 1
+            self.block_selected_dict_file[str(idx + 1)] = entry  # JSON keys start from 1
+        self.vars[self.tax_type+'_revenue_with_reform_file'] = 1
         self.run_core_program('revenue_with_reform_file')
         
-    def clicked_generate_policy_revenues(self):
+    def clicked_generate_policy_revenues(self, reform_filename):
+        df = pd.read_csv(reform_filename)
+        self.block_selected_dict_file = {}
+        for idx, row in df.iterrows():
+            entry = {
+                    "selected_item": str(row["Policy Parameter"]),
+                    "selected_year": [str(row["Year"])],
+                    "selected_value": [str(row["Value"])]
+                    }
+            self.block_selected_dict_file[str(idx + 1)] = entry  # JSON keys start from 1
         self.run_core_program('revenue')
 
     def run_core_program(self, run_type):
@@ -438,14 +448,18 @@ class Application(tk.Frame):
             self.vars[self.tax_type+'_display_revenue_table'] = 0            
             
         self.save_inputs()
-        
-        if (run_type!='revenue_with_reform_file'):
-            self.block_selected_dict = self.generate_changes_dict(self.block_widget_dict, 
+        #if (run_type!='revenue_with_reform_file'):
+        self.block_selected_dict_gui = self.generate_changes_dict(self.block_widget_dict, 
                                                                   self.year_value_pairs_policy_dict, 
                                                                   year_check=1, 
                                                                   start_year=global_vars['start_year'], 
                                                                   end_year=global_vars['end_year'],
                                                                   sector_widget=0)
+        temp = {}
+        for d in (self.block_selected_dict_file, self.block_selected_dict_gui):
+            for entry in d.values():
+                temp[entry["selected_item"]] = entry
+        self.block_selected_dict = {str(i+1): v for i, v in enumerate(temp.values())}        
         with open('reform.json', 'w') as f:
             f.write(json.dumps(self.block_selected_dict, indent=2))
 
