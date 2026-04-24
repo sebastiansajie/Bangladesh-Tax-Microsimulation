@@ -379,12 +379,12 @@ def tab1(self):
     self.vars['cit'] = 0
     self.vars['vat'] = 0
     
-    self.status['pit'] = tk.NORMAL
-    #self.status['pit'] = tk.DISABLED
+    #self.status['pit'] = tk.NORMAL
+    self.status['pit'] = tk.DISABLED
     #self.status['cit'] = tk.NORMAL
     self.status['cit'] = tk.DISABLED
-    #self.status['vat'] = tk.NORMAL
-    self.status['vat'] = tk.DISABLED
+    self.status['vat'] = tk.NORMAL
+    #self.status['vat'] = tk.DISABLED
     
     self.block_1_title_pos_x = 0.15
     self.block_1_title_box_y = 0.15
