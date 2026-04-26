@@ -1,0 +1,344 @@
+{
+    "policy": {
+        "_rate_cloth": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_clothes": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_donation": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_education_services_government": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_education_services_government_college": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_education_services_private": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_education_services_private_college": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_electronics_ict": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_electronics_ict_repair": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_entertainment_goods_music": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_entertainment_goods_sports": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_financial_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_food_basic": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_food_non_basic": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_footwear": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_footwear_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_fuel": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_fuel_biomass": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_furniture_fixtures": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_health_equipment": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_health_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_health_services_dental": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_health_services_paramedical": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_health_services_testing": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_hospital_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_hotel_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_house_repair_goods": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_house_repair_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_household_accessories_medical": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_household_electric_equipment": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_household_equipment": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_household_gardening": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_household_goods": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_household_items": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_household_repair_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_household_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_household_utensils": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_interest": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_jewellery": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_legal_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_medical_accessories": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_medical_life_saving": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_motor_vehicle_four_wheeler": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_motor_vehicle_two_wheeler": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_non_motorized_vehicle": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_other_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_personal_accessories": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_personal_accessories_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_personal_expenses_religious": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_personal_products": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_personal_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_recreation": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_religious_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_rent": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_restaurant": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_sports_recreation_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_stationery": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_tailoring_cleaning": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_tax": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_telecom_equipment": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_telecom_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_transport": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_transport_services": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_travel": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_travel_religious": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_utilities": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_vehicle_equipment": {
+            "2022": [
+                0.15
+            ]
+        },
+        "_rate_vehicle_services": {
+            "2022": [
+                0.15
+            ]
+        }
+    }
+}

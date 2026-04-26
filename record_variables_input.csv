@@ -1,31 +1,84 @@
-﻿field_category,field_name,required,type,desc,form,2023,cross_year,attribute
-read,id_n,True,int,Unique positive numeric identifier for filing unit,,Tax Return Data,No,No
-read,Year,True,int,Year,,Tax Return Data,No,No
-read,weight,False,float,Weight,,Tax Return Data,No,No
-read,emp_income,False,float,Employment Income,,Tax Return Data,No,No
-read,other_income,False,float,Other Income,,Tax Return Data,No,No
-read,interest_income,False,float,Interest Income,,Tax Return Data,No,No
-read,business_income,False,float,Business Income,,Tax Return Data,No,No
-read,is_disabled,False,int,Person with Disability,,Tax Return Data,No,No
-read,mortage_interest,False,float,Mortgage Interest,,Tax Return Data,No,No
-read,home_own_saving_plan_dep,False,float,home_own_saving_plan_dep,,Tax Return Data,No,No
-read,hosp_tot_deposit_year,False,float,hosp_tot_deposit_year,,Tax Return Data,No,No
-read,pension_contribution,False,float,Pension Contribution,,Tax Return Data,No,No
-read,insurance_relief,False,float,Insurance Relief,,Tax Return Data,No,No
-calc,total_income,False,float,Total Income,,Calculated from Tax Return Data,,
-calc,capital_income,False,float,Capital Income,,Calculated from Tax Return Data,,
-calc,emp_income_total,False,float,Incomes at Marginal Rates,,Calculated from Tax Return Data,,
-calc,mortgage_deduction,False,float,Mortgage Deduction,,Calculated from Tax Return Data,,
-calc,pension_deduction,False,float,Mortgage Deduction,,Calculated from Tax Return Data,,
-calc,disability_exemption,False,float,disability_exemption,,Calculated from Tax Return Data,,
-calc,total_deductions,False,float,Total Deduction,,Calculated from Tax Return Data,,
-calc,net_taxable_income,False,float,Net Taxable Income,,Calculated from Tax Return Data,,
-calc,income_wage_behavior,False,float,Incomes after adjusting for behavior,,Calculated from Tax Return Data,,
-calc,tax_payable_before_reliefs,False,float,tax_payable_before_reliefs,,Calculated from Tax Return Data,,
-calc,total_reliefs,False,float,total_reliefs,,Calculated from Tax Return Data,,
-calc,tax_payable_after_reliefs,False,float,tax_payable_after_reliefs,,Calculated from Tax Return Data,,
-calc,applicable_elasticity_food,False,float,Applicable elasticity based on Total Consumption_Income levels,,Calculated from Tax Return Data,,
-calc,applicable_elasticity_non_food,False,float,Applicable elasticity based on Total Consumption_Income levels,,Calculated from Tax Return Data,,
-calc,pitax_c,False,float,Total PIT,,Calculated by the Model,,
-calc,pitax_w,False,float,Total PIT,,Calculated by the Model,,
-calc,pitax,False,float,Total PIT,,Calculated by the Model,,
+field_category,field_name,required,type,desc,form,2022,cross_year,attribute
+read,id_n,True,int,Unique positive numeric identifier for filing unit,,2022 Household Survey,No,No
+read,Year,True,int,Year,,2022 Household Survey,No,No
+read,weight,True,float,Weight,,2022 Household Survey,No,No
+read,CONS_Total,True,float,Weight,,2022 Household Survey,No,No
+read,CONS_Other,True,float,Weight,,2022 Household Survey,No,No
+read,GROSS_INCOME,False,float,Weight,,2022 Household Survey,No,No
+read,CONS_cloth,False,float,Consumption of cloth,,2022 Household Survey,No,No
+read,CONS_clothes,False,float,Consumption of clothes,,2022 Household Survey,No,No
+read,CONS_donation,False,float,Consumption of donation,,2022 Household Survey,No,No
+read,CONS_education_services_government,False,float,Consumption of education_services_government,,2022 Household Survey,No,No
+read,CONS_education_services_government_college,False,float,Consumption of education_services_government_college,,2022 Household Survey,No,No
+read,CONS_education_services_private,False,float,Consumption of education_services_private,,2022 Household Survey,No,No
+read,CONS_education_services_private_college,False,float,Consumption of education_services_private_college,,2022 Household Survey,No,No
+read,CONS_electronics_ict,False,float,Consumption of electronics_ict,,2022 Household Survey,No,No
+read,CONS_electronics_ict_repair,False,float,Consumption of electronics_ict_repair,,2022 Household Survey,No,No
+read,CONS_entertainment_goods_music,False,float,Consumption of entertainment_goods_music,,2022 Household Survey,No,No
+read,CONS_entertainment_goods_sports,False,float,Consumption of entertainment_goods_sports,,2022 Household Survey,No,No
+read,CONS_financial_services,False,float,Consumption of financial_services,,2022 Household Survey,No,No
+read,CONS_food_basic,False,float,Consumption of food_basic,,2022 Household Survey,No,No
+read,CONS_food_non_basic,False,float,Consumption of food_non_basic,,2022 Household Survey,No,No
+read,CONS_footwear,False,float,Consumption of footwear,,2022 Household Survey,No,No
+read,CONS_footwear_services,False,float,Consumption of footwear_services,,2022 Household Survey,No,No
+read,CONS_fuel,False,float,Consumption of fuel,,2022 Household Survey,No,No
+read,CONS_fuel_biomass,False,float,Consumption of fuel_biomass,,2022 Household Survey,No,No
+read,CONS_furniture_fixtures,False,float,Consumption of furniture_fixtures,,2022 Household Survey,No,No
+read,CONS_health_equipment,False,float,Consumption of health_equipment,,2022 Household Survey,No,No
+read,CONS_health_services,False,float,Consumption of health_services,,2022 Household Survey,No,No
+read,CONS_health_services_dental,False,float,Consumption of health_services_dental,,2022 Household Survey,No,No
+read,CONS_health_services_paramedical,False,float,Consumption of health_services_paramedical,,2022 Household Survey,No,No
+read,CONS_health_services_testing,False,float,Consumption of health_services_testing,,2022 Household Survey,No,No
+read,CONS_hospital_services,False,float,Consumption of hospital_services,,2022 Household Survey,No,No
+read,CONS_hotel_services,False,float,Consumption of hotel_services,,2022 Household Survey,No,No
+read,CONS_house_repair_goods,False,float,Consumption of house_repair_goods,,2022 Household Survey,No,No
+read,CONS_house_repair_services,False,float,Consumption of house_repair_services,,2022 Household Survey,No,No
+read,CONS_household_accessories_medical,False,float,Consumption of household_accessories_medical,,2022 Household Survey,No,No
+read,CONS_household_electric_equipment,False,float,Consumption of household_electric_equipment,,2022 Household Survey,No,No
+read,CONS_household_equipment,False,float,Consumption of household_equipment,,2022 Household Survey,No,No
+read,CONS_household_gardening,False,float,Consumption of household_gardening,,2022 Household Survey,No,No
+read,CONS_household_goods,False,float,Consumption of household_goods,,2022 Household Survey,No,No
+read,CONS_household_items,False,float,Consumption of household_items,,2022 Household Survey,No,No
+read,CONS_household_repair_services,False,float,Consumption of household_repair_services,,2022 Household Survey,No,No
+read,CONS_household_services,False,float,Consumption of household_services,,2022 Household Survey,No,No
+read,CONS_household_utensils,False,float,Consumption of household_utensils,,2022 Household Survey,No,No
+read,CONS_interest,False,float,Consumption of interest,,2022 Household Survey,No,No
+read,CONS_jewellery,False,float,Consumption of jewellery,,2022 Household Survey,No,No
+read,CONS_legal_services,False,float,Consumption of legal_services,,2022 Household Survey,No,No
+read,CONS_medical_accessories,False,float,Consumption of medical_accessories,,2022 Household Survey,No,No
+read,CONS_medical_life_saving,False,float,Consumption of medical_life_saving,,2022 Household Survey,No,No
+read,CONS_motor_vehicle_four_wheeler,False,float,Consumption of motor_vehicle_four_wheeler,,2022 Household Survey,No,No
+read,CONS_motor_vehicle_two_wheeler,False,float,Consumption of motor_vehicle_two_wheeler,,2022 Household Survey,No,No
+read,CONS_non_motorized_vehicle,False,float,Consumption of non_motorized_vehicle,,2022 Household Survey,No,No
+read,CONS_other_services,False,float,Consumption of other_services,,2022 Household Survey,No,No
+read,CONS_personal_accessories,False,float,Consumption of personal_accessories,,2022 Household Survey,No,No
+read,CONS_personal_accessories_services,False,float,Consumption of personal_accessories_services,,2022 Household Survey,No,No
+read,CONS_personal_expenses_religious,False,float,Consumption of personal_expenses_religious,,2022 Household Survey,No,No
+read,CONS_personal_products,False,float,Consumption of personal_products,,2022 Household Survey,No,No
+read,CONS_personal_services,False,float,Consumption of personal_services,,2022 Household Survey,No,No
+read,CONS_recreation,False,float,Consumption of recreation,,2022 Household Survey,No,No
+read,CONS_religious_services,False,float,Consumption of religious_services,,2022 Household Survey,No,No
+read,CONS_rent,False,float,Consumption of rent,,2022 Household Survey,No,No
+read,CONS_restaurant,False,float,Consumption of restaurant,,2022 Household Survey,No,No
+read,CONS_sports_recreation_services,False,float,Consumption of sports_recreation_services,,2022 Household Survey,No,No
+read,CONS_stationery,False,float,Consumption of stationery,,2022 Household Survey,No,No
+read,CONS_tailoring_cleaning,False,float,Consumption of tailoring_cleaning,,2022 Household Survey,No,No
+read,CONS_tax,False,float,Consumption of tax,,2022 Household Survey,No,No
+read,CONS_telecom_equipment,False,float,Consumption of telecom_equipment,,2022 Household Survey,No,No
+read,CONS_telecom_services,False,float,Consumption of telecom_services,,2022 Household Survey,No,No
+read,CONS_transport,False,float,Consumption of transport,,2022 Household Survey,No,No
+read,CONS_transport_services,False,float,Consumption of transport_services,,2022 Household Survey,No,No
+read,CONS_travel,False,float,Consumption of travel,,2022 Household Survey,No,No
+read,CONS_travel_religious,False,float,Consumption of travel_religious,,2022 Household Survey,No,No
+read,CONS_utilities,False,float,Consumption of utilities,,2022 Household Survey,No,No
+read,CONS_vehicle_equipment,False,float,Consumption of vehicle_equipment,,2022 Household Survey,No,No
+read,CONS_vehicle_services,False,float,Consumption of vehicle_services,,2022 Household Survey,No,No
+calc,CONS_Food,False,float,CONS Food,,Calculated by the Model,,
+calc,CONS_Non_Food,False,float,CONS Non Food,,Calculated by the Model,,
+calc,CONS_Other,False,float,CONS Other,,Calculated by the Model,,
+calc,CONS_Total,False,float,CONS Total,,Calculated by the Model,,
+calc,applicable_elasticity_food,False,float,applicable_elasticity_food,,Calculated by the Model,,
+calc,applicable_elasticity_non_food,False,float,applicable_elasticity_non_food,,Calculated by the Model,,
+calc,vat_Food,False,float,VAT on Food,,Calculated by the Model,,
+calc,vat_Non_Food,False,float,VAT on Non Food,,Calculated by the Model,,
+calc,vatax,False,float,Total VAT liability,,Calculated by the Model,,

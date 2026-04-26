@@ -3,13 +3,13 @@
     "selected_item": "elasticity_consumption_food_value",
     "selected_value": [
       [
-        "-0.4",
-        "-0.4",
-        "-0.4"
+        "-1.0",
+        "-1.0",
+        "-1.0"
       ]
     ],
     "selected_year": [
-      "2025"
+      "2024"
     ]
   },
   "2": {
@@ -22,7 +22,7 @@
       ]
     ],
     "selected_year": [
-      "2025"
+      "2024"
     ]
   },
   "3": {
@@ -35,7 +35,7 @@
       ]
     ],
     "selected_year": [
-      "2025"
+      "2024"
     ]
   },
   "4": {
@@ -48,7 +48,7 @@
       ]
     ],
     "selected_year": [
-      "2025"
+      "2024"
     ]
   }
 }

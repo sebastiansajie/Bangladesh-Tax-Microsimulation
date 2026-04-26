@@ -1,10 +1,15 @@
 {
     "policy": {
-        "_rate_Food": {
+        "_rate_Food1": {
             "2024": [
                 0.14
             ]
         },
+        "_rate_Food2": {
+            "2024": [
+                0.14
+            ]
+        },        
         "_rate_Alcohol_Tobacco": {
             "2024": [
                 0.14

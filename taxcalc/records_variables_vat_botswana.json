@@ -60,7 +60,7 @@
             "cross_year": "No",
             "attribute": "No"
         },
-        "CONS_Food": {
+        "CONS_Food1": {
             "required": false,
             "type": "float",
             "desc": "Consumption of Food",
@@ -70,6 +70,16 @@
             "cross_year": "No",
             "attribute": "No"
         },
+        "CONS_Food2": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Food",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },        
         "CONS_Alcohol_Tobacco": {
             "required": false,
             "type": "float",
@@ -189,6 +199,13 @@
                 "2015": "Calculated from National Household Survey 2015"
             }
         },
+        "CONS_Food": {
+            "type": "float",
+            "desc": "Consumption on Non_Food",
+            "form": {
+                "2015": "Calculated from National Household Survey 2015"
+            }
+        },        
         "CONS_Non_Food": {
             "type": "float",
             "desc": "Consumption on Non_Food",

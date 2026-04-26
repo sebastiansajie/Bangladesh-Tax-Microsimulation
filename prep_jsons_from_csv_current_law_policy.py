@@ -36,9 +36,9 @@ for idx, row in df.iterrows():
             item['value'] = [[10000, 100000, 9e99]]
         elif (field_name.find('value')!=-1):
             if (field_name.find('food')!=-1):
-                item['value'] = [[0.4, 0.4, 0.4]]
+                item['value'] = [[0.0, 0.0, 0.0]]
             else:
-                item['value'] = [[0.2, 0.2, 0.2]]
+                item['value'] = [[0.0, 0.0, 0.0]]
     else:
         item['col_label'] = checknan(str(row['col_label']))
         item['value'] = [(row['value'])]

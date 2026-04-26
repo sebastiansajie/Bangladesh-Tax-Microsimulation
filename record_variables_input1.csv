@@ -1,0 +1,26 @@
+﻿field_category,field_name,required,type,desc,form,2015,cross_year,attribute
+read,id_n,TRUE,int,Unique positive numeric identifier for filing unit,,National Household Survey 2015,No,No
+read,Year,TRUE,int,Year,,National Household Survey 2015,No,No
+read,weight,TRUE,float,Weight,,National Household Survey 2015,No,No
+read,CONS_Total,TRUE,float,Consumption Total,,Calculated from National Household Survey 2015,No,No
+read,CONS_Other,TRUE,float,Consumption on Other Items = Non_Food,,Calculated from National Household Survey 2015,No,No
+read,GROSS_INCOME,FALSE,float,Gross Income,,National Household Survey 2015,No,No
+read,CONS_Food,FALSE,float,Consumption of Food,,National Household Survey 2015,No,No
+read,CONS_Alcohol_Tobacco,FALSE,float,Consumption of Alcohol_Tobacco,,National Household Survey 2015,No,No
+read,CONS_Clothing_Footwear,FALSE,float,Consumption of Clothing_Footwear,,National Household Survey 2015,No,No
+read,CONS_Housing,FALSE,float,Consumption of Housing,,National Household Survey 2015,No,No
+read,CONS_Hhold_Goods_Services,FALSE,float,Consumption of Hhold_Goods_Services,,National Household Survey 2015,No,No
+read,CONS_Health,FALSE,float,Consumption of Health,,National Household Survey 2015,No,No
+read,CONS_Transport,FALSE,float,Consumption of Transport,,National Household Survey 2015,No,No
+read,CONS_Communication,FALSE,float,Consumption of Communication,,National Household Survey 2015,No,No
+read,CONS_Recreation_Culture,FALSE,float,Consumption of Recreation_Culture,,National Household Survey 2015,No,No
+read,CONS_Education,FALSE,float,Consumption of Education,,National Household Survey 2015,No,No
+read,CONS_Restaurants_Hotels,FALSE,float,Consumption of Restaurants_Hotels,,National Household Survey 2015,No,No
+read,CONS_Miscellaneous,FALSE,float,Consumption of Miscellaneous,,National Household Survey 2015,No,No
+calc,CONS_Total,FALSE,float,Consumption Total,,Calculated from National Household Survey 2015,,
+calc,CONS_Non_Food,FALSE,float,Consumption on Non_Food,,Calculated from National Household Survey 2015,,
+calc,applicable_elasticity_food,FALSE,float,Applicable elasticity based on Total Consumption_Income levels,,Calculated from National Household Survey 2015,,
+calc,applicable_elasticity_non_food,FALSE,float,Applicable elasticity based on Total Consumption_Income levels,,Calculated from National Household Survey 2015,,
+calc,vat_Food,FALSE,float,VAT on Food,,Calculated by the Model,,
+calc,vat_Non_Food,FALSE,float,VAT on Non Food,,Calculated by the Model,,
+calc,vatax,FALSE,float,Total VAT,,Calculated by the Model,,

@@ -1,0 +1,809 @@
+{
+    "read": {
+        "id_n": {
+            "required": true,
+            "type": "int",
+            "desc": "Unique positive numeric identifier for filing unit",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Year": {
+            "required": true,
+            "type": "int",
+            "desc": "Year",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "weight": {
+            "required": true,
+            "type": "float",
+            "desc": "Weight",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Total": {
+            "required": true,
+            "type": "float",
+            "desc": "Weight",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Other": {
+            "required": true,
+            "type": "float",
+            "desc": "Weight",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "GROSS_INCOME": {
+            "required": false,
+            "type": "float",
+            "desc": "Weight",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_cloth": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of cloth",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_clothes": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of clothes",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_donation": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of donation",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_education_services_government": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of education_services_government",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_education_services_government_college": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of education_services_government_college",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_education_services_private": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of education_services_private",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_education_services_private_college": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of education_services_private_college",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_electronics_ict": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of electronics_ict",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_electronics_ict_repair": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of electronics_ict_repair",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_entertainment_goods_music": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of entertainment_goods_music",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_entertainment_goods_sports": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of entertainment_goods_sports",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_financial_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of financial_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_food_basic": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of food_basic",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_food_non_basic": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of food_non_basic",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_footwear": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of footwear",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_footwear_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of footwear_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_fuel": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of fuel",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_fuel_biomass": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of fuel_biomass",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_furniture_fixtures": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of furniture_fixtures",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_health_equipment": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of health_equipment",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_health_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of health_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_health_services_dental": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of health_services_dental",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_health_services_paramedical": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of health_services_paramedical",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_health_services_testing": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of health_services_testing",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_hospital_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of hospital_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_hotel_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of hotel_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_house_repair_goods": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of house_repair_goods",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_house_repair_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of house_repair_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_household_accessories_medical": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of household_accessories_medical",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_household_electric_equipment": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of household_electric_equipment",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_household_equipment": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of household_equipment",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_household_gardening": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of household_gardening",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_household_goods": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of household_goods",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_household_items": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of household_items",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_household_repair_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of household_repair_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_household_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of household_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_household_utensils": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of household_utensils",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_interest": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of interest",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_jewellery": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of jewellery",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_legal_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of legal_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_medical_accessories": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of medical_accessories",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_medical_life_saving": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of medical_life_saving",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_motor_vehicle_four_wheeler": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of motor_vehicle_four_wheeler",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_motor_vehicle_two_wheeler": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of motor_vehicle_two_wheeler",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_non_motorized_vehicle": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of non_motorized_vehicle",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_other_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of other_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_personal_accessories": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of personal_accessories",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_personal_accessories_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of personal_accessories_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_personal_expenses_religious": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of personal_expenses_religious",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_personal_products": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of personal_products",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_personal_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of personal_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_recreation": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of recreation",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_religious_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of religious_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_rent": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of rent",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_restaurant": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of restaurant",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_sports_recreation_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of sports_recreation_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_stationery": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of stationery",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_tailoring_cleaning": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of tailoring_cleaning",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_tax": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of tax",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_telecom_equipment": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of telecom_equipment",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_telecom_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of telecom_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_transport": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of transport",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_transport_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of transport_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_travel": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of travel",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_travel_religious": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of travel_religious",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_utilities": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of utilities",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_vehicle_equipment": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of vehicle_equipment",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_vehicle_services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of vehicle_services",
+            "form": {
+                "2022": "2022 Household Survey"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        }
+    },
+    "calc": {
+        "CONS_Food": {
+            "type": "float",
+            "desc": "CONS Food",
+            "form": {
+                "2022": "Calculated by the Model"
+            }
+        },
+        "CONS_Non_Food": {
+            "type": "float",
+            "desc": "CONS Non Food",
+            "form": {
+                "2022": "Calculated by the Model"
+            }
+        },
+        "CONS_Other": {
+            "type": "float",
+            "desc": "CONS Other",
+            "form": {
+                "2022": "Calculated by the Model"
+            }
+        },
+        "CONS_Total": {
+            "type": "float",
+            "desc": "CONS Total",
+            "form": {
+                "2022": "Calculated by the Model"
+            }
+        },
+        "applicable_elasticity_food": {
+            "type": "float",
+            "desc": "applicable_elasticity_food",
+            "form": {
+                "2022": "Calculated by the Model"
+            }
+        },
+        "applicable_elasticity_non_food": {
+            "type": "float",
+            "desc": "applicable_elasticity_non_food",
+            "form": {
+                "2022": "Calculated by the Model"
+            }
+        },
+        "vat_Food": {
+            "type": "float",
+            "desc": "VAT on Food",
+            "form": {
+                "2022": "Calculated by the Model"
+            }
+        },
+        "vat_Non_Food": {
+            "type": "float",
+            "desc": "VAT on Non Food",
+            "form": {
+                "2022": "Calculated by the Model"
+            }
+        },
+        "vatax": {
+            "type": "float",
+            "desc": "Total VAT liability",
+            "form": {
+                "2022": "Calculated by the Model"
+            }
+        }
+    }
+}

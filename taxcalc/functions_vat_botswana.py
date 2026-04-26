@@ -94,7 +94,7 @@ def cal_CONS_Food_behavior_and_vat(rate_Food, rate_Food_curr_law, applicable_ela
     rate=rate_Food
     rate_curr_law=rate_Food_curr_law
     # Compute the fractional change of VAT rate safely
-    frac_change_of_vat_rate = (rate - rate_curr_law) / rate_curr_law
+    frac_change_of_vat_rate = (rate - rate_curr_law) / (1+rate_curr_law)
     frac_change_of_consumption = applicable_elasticity_food*frac_change_of_vat_rate
     CONS_Food_behavior = CONS_Food*(1+frac_change_of_consumption)
     vat_Food = rate_Food*CONS_Food_behavior
@@ -120,17 +120,17 @@ def cal_CONS_Non_Food_behavior_and_vat(rate_Alcohol_Tobacco, rate_Alcohol_Tobacc
     Compute consumption after adjusting for behavior.
     """ 
     
-    frac_change_of_consumption_Alcohol_Tobacco = applicable_elasticity_non_food*((rate_Alcohol_Tobacco - rate_Alcohol_Tobacco_curr_law) / rate_Alcohol_Tobacco_curr_law)
-    frac_change_of_consumption_Clothing_Footwear = applicable_elasticity_non_food*((rate_Clothing_Footwear - rate_Clothing_Footwear_curr_law) / rate_Clothing_Footwear_curr_law)
-    frac_change_of_consumption_Housing = applicable_elasticity_non_food*((rate_Housing - rate_Housing_curr_law) / rate_Housing_curr_law)
-    frac_change_of_consumption_Hhold_Goods_Services = applicable_elasticity_non_food*((rate_Hhold_Goods_Services - rate_Hhold_Goods_Services_curr_law) / rate_Hhold_Goods_Services_curr_law)
-    frac_change_of_consumption_Health = applicable_elasticity_non_food*((rate_Health - rate_Health_curr_law) / rate_Health_curr_law)
-    frac_change_of_consumption_Transport = applicable_elasticity_non_food*((rate_Transport - rate_Transport_curr_law) / rate_Transport_curr_law)
-    frac_change_of_consumption_Communication = applicable_elasticity_non_food*((rate_Communication - rate_Communication_curr_law) / rate_Communication_curr_law)
-    frac_change_of_consumption_Recreation_Culture = applicable_elasticity_non_food*((rate_Recreation_Culture - rate_Recreation_Culture_curr_law) / rate_Recreation_Culture_curr_law)
-    frac_change_of_consumption_Education = applicable_elasticity_non_food*((rate_Education - rate_Education_curr_law) / rate_Education_curr_law)
-    frac_change_of_consumption_Restaurants_Hotels = applicable_elasticity_non_food*((rate_Restaurants_Hotels - rate_Restaurants_Hotels_curr_law) / rate_Restaurants_Hotels_curr_law)
-    frac_change_of_consumption_Miscellaneous = applicable_elasticity_non_food*((rate_Miscellaneous - rate_Miscellaneous_curr_law) / rate_Miscellaneous_curr_law)
+    frac_change_of_consumption_Alcohol_Tobacco = applicable_elasticity_non_food*((rate_Alcohol_Tobacco - rate_Alcohol_Tobacco_curr_law) / (1+rate_Alcohol_Tobacco_curr_law))
+    frac_change_of_consumption_Clothing_Footwear = applicable_elasticity_non_food*((rate_Clothing_Footwear - rate_Clothing_Footwear_curr_law) / (1+rate_Clothing_Footwear_curr_law))
+    frac_change_of_consumption_Housing = applicable_elasticity_non_food*((rate_Housing - rate_Housing_curr_law) /  (1+rate_Housing_curr_law))
+    frac_change_of_consumption_Hhold_Goods_Services = applicable_elasticity_non_food*((rate_Hhold_Goods_Services - rate_Hhold_Goods_Services_curr_law) /  (1+rate_Hhold_Goods_Services_curr_law))
+    frac_change_of_consumption_Health = applicable_elasticity_non_food*((rate_Health - rate_Health_curr_law) /  (1+rate_Health_curr_law))
+    frac_change_of_consumption_Transport = applicable_elasticity_non_food*((rate_Transport - rate_Transport_curr_law) /  (1+rate_Transport_curr_law))
+    frac_change_of_consumption_Communication = applicable_elasticity_non_food*((rate_Communication - rate_Communication_curr_law) /  (1+rate_Communication_curr_law))
+    frac_change_of_consumption_Recreation_Culture = applicable_elasticity_non_food*((rate_Recreation_Culture - rate_Recreation_Culture_curr_law) /  (1+rate_Recreation_Culture_curr_law))
+    frac_change_of_consumption_Education = applicable_elasticity_non_food*((rate_Education - rate_Education_curr_law) /  (1+rate_Education_curr_law))
+    frac_change_of_consumption_Restaurants_Hotels = applicable_elasticity_non_food*((rate_Restaurants_Hotels - rate_Restaurants_Hotels_curr_law) /  (1+rate_Restaurants_Hotels_curr_law))
+    frac_change_of_consumption_Miscellaneous = applicable_elasticity_non_food*((rate_Miscellaneous - rate_Miscellaneous_curr_law) /  (1+rate_Miscellaneous_curr_law))
 
     CONS_Alcohol_Tobacco_behavior = CONS_Alcohol_Tobacco*(1+frac_change_of_consumption_Alcohol_Tobacco)
     CONS_Clothing_Footwear_behavior = CONS_Clothing_Footwear*(1+frac_change_of_consumption_Clothing_Footwear)

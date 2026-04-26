@@ -1,0 +1,3814 @@
+{
+    "_rate_cloth": {
+        "long_name": "VAT for consumption of _rate_cloth",
+        "description": "VAT for consumption of _rate_cloth",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_cloth_curr_law": {
+        "long_name": "VAT for consumption of _rate_cloth_curr_law",
+        "description": "VAT for consumption of _rate_cloth_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_clothes": {
+        "long_name": "VAT for consumption of _rate_clothes",
+        "description": "VAT for consumption of _rate_clothes",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_clothes_curr_law": {
+        "long_name": "VAT for consumption of _rate_clothes_curr_law",
+        "description": "VAT for consumption of _rate_clothes_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_donation": {
+        "long_name": "VAT for consumption of _rate_donation",
+        "description": "VAT for consumption of _rate_donation",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_donation_curr_law": {
+        "long_name": "VAT for consumption of _rate_donation_curr_law",
+        "description": "VAT for consumption of _rate_donation_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_education_services_government": {
+        "long_name": "VAT for consumption of _rate_education_services_government",
+        "description": "VAT for consumption of _rate_education_services_government",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_education_services_government_curr_law": {
+        "long_name": "VAT for consumption of _rate_education_services_government_curr_law",
+        "description": "VAT for consumption of _rate_education_services_government_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_education_services_government_college": {
+        "long_name": "VAT for consumption of _rate_education_services_government_college",
+        "description": "VAT for consumption of _rate_education_services_government_college",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_education_services_government_college_curr_law": {
+        "long_name": "VAT for consumption of _rate_education_services_government_college_curr_law",
+        "description": "VAT for consumption of _rate_education_services_government_college_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_education_services_private": {
+        "long_name": "VAT for consumption of _rate_education_services_private",
+        "description": "VAT for consumption of _rate_education_services_private",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.14
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_education_services_private_curr_law": {
+        "long_name": "VAT for consumption of _rate_education_services_private_curr_law",
+        "description": "VAT for consumption of _rate_education_services_private_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.14
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_education_services_private_college": {
+        "long_name": "VAT for consumption of _rate_education_services_private_college",
+        "description": "VAT for consumption of _rate_education_services_private_college",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_education_services_private_college_curr_law": {
+        "long_name": "VAT for consumption of _rate_education_services_private_college_curr_law",
+        "description": "VAT for consumption of _rate_education_services_private_college_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_electronics_ict": {
+        "long_name": "VAT for consumption of _rate_electronics_ict",
+        "description": "VAT for consumption of _rate_electronics_ict",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_electronics_ict_curr_law": {
+        "long_name": "VAT for consumption of _rate_electronics_ict_curr_law",
+        "description": "VAT for consumption of _rate_electronics_ict_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_electronics_ict_repair": {
+        "long_name": "VAT for consumption of _rate_electronics_ict_repair",
+        "description": "VAT for consumption of _rate_electronics_ict_repair",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.1
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_electronics_ict_repair_curr_law": {
+        "long_name": "VAT for consumption of _rate_electronics_ict_repair_curr_law",
+        "description": "VAT for consumption of _rate_electronics_ict_repair_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.1
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_entertainment_goods_music": {
+        "long_name": "VAT for consumption of _rate_entertainment_goods_music",
+        "description": "VAT for consumption of _rate_entertainment_goods_music",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_entertainment_goods_music_curr_law": {
+        "long_name": "VAT for consumption of _rate_entertainment_goods_music_curr_law",
+        "description": "VAT for consumption of _rate_entertainment_goods_music_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_entertainment_goods_sports": {
+        "long_name": "VAT for consumption of _rate_entertainment_goods_sports",
+        "description": "VAT for consumption of _rate_entertainment_goods_sports",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_entertainment_goods_sports_curr_law": {
+        "long_name": "VAT for consumption of _rate_entertainment_goods_sports_curr_law",
+        "description": "VAT for consumption of _rate_entertainment_goods_sports_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_financial_services": {
+        "long_name": "VAT for consumption of _rate_financial_services",
+        "description": "VAT for consumption of _rate_financial_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.08
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_financial_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_financial_services_curr_law",
+        "description": "VAT for consumption of _rate_financial_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.08
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_food_basic": {
+        "long_name": "VAT for consumption of _rate_food_basic",
+        "description": "VAT for consumption of _rate_food_basic",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.01
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_food_basic_curr_law": {
+        "long_name": "VAT for consumption of _rate_food_basic_curr_law",
+        "description": "VAT for consumption of _rate_food_basic_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.01
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_food_non_basic": {
+        "long_name": "VAT for consumption of _rate_food_non_basic",
+        "description": "VAT for consumption of _rate_food_non_basic",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_food_non_basic_curr_law": {
+        "long_name": "VAT for consumption of _rate_food_non_basic_curr_law",
+        "description": "VAT for consumption of _rate_food_non_basic_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_footwear": {
+        "long_name": "VAT for consumption of _rate_footwear",
+        "description": "VAT for consumption of _rate_footwear",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_footwear_curr_law": {
+        "long_name": "VAT for consumption of _rate_footwear_curr_law",
+        "description": "VAT for consumption of _rate_footwear_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_footwear_services": {
+        "long_name": "VAT for consumption of _rate_footwear_services",
+        "description": "VAT for consumption of _rate_footwear_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_footwear_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_footwear_services_curr_law",
+        "description": "VAT for consumption of _rate_footwear_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_fuel": {
+        "long_name": "VAT for consumption of _rate_fuel",
+        "description": "VAT for consumption of _rate_fuel",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.08
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_fuel_curr_law": {
+        "long_name": "VAT for consumption of _rate_fuel_curr_law",
+        "description": "VAT for consumption of _rate_fuel_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.08
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_fuel_biomass": {
+        "long_name": "VAT for consumption of _rate_fuel_biomass",
+        "description": "VAT for consumption of _rate_fuel_biomass",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.02
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_fuel_biomass_curr_law": {
+        "long_name": "VAT for consumption of _rate_fuel_biomass_curr_law",
+        "description": "VAT for consumption of _rate_fuel_biomass_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.02
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_furniture_fixtures": {
+        "long_name": "VAT for consumption of _rate_furniture_fixtures",
+        "description": "VAT for consumption of _rate_furniture_fixtures",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_furniture_fixtures_curr_law": {
+        "long_name": "VAT for consumption of _rate_furniture_fixtures_curr_law",
+        "description": "VAT for consumption of _rate_furniture_fixtures_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_health_equipment": {
+        "long_name": "VAT for consumption of _rate_health_equipment",
+        "description": "VAT for consumption of _rate_health_equipment",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_health_equipment_curr_law": {
+        "long_name": "VAT for consumption of _rate_health_equipment_curr_law",
+        "description": "VAT for consumption of _rate_health_equipment_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_health_services": {
+        "long_name": "VAT for consumption of _rate_health_services",
+        "description": "VAT for consumption of _rate_health_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_health_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_health_services_curr_law",
+        "description": "VAT for consumption of _rate_health_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_health_services_dental": {
+        "long_name": "VAT for consumption of _rate_health_services_dental",
+        "description": "VAT for consumption of _rate_health_services_dental",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_health_services_dental_curr_law": {
+        "long_name": "VAT for consumption of _rate_health_services_dental_curr_law",
+        "description": "VAT for consumption of _rate_health_services_dental_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_health_services_paramedical": {
+        "long_name": "VAT for consumption of _rate_health_services_paramedical",
+        "description": "VAT for consumption of _rate_health_services_paramedical",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_health_services_paramedical_curr_law": {
+        "long_name": "VAT for consumption of _rate_health_services_paramedical_curr_law",
+        "description": "VAT for consumption of _rate_health_services_paramedical_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_health_services_testing": {
+        "long_name": "VAT for consumption of _rate_health_services_testing",
+        "description": "VAT for consumption of _rate_health_services_testing",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_health_services_testing_curr_law": {
+        "long_name": "VAT for consumption of _rate_health_services_testing_curr_law",
+        "description": "VAT for consumption of _rate_health_services_testing_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_hospital_services": {
+        "long_name": "VAT for consumption of _rate_hospital_services",
+        "description": "VAT for consumption of _rate_hospital_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.1
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_hospital_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_hospital_services_curr_law",
+        "description": "VAT for consumption of _rate_hospital_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.1
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_hotel_services": {
+        "long_name": "VAT for consumption of _rate_hotel_services",
+        "description": "VAT for consumption of _rate_hotel_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.14
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_hotel_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_hotel_services_curr_law",
+        "description": "VAT for consumption of _rate_hotel_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.14
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_house_repair_goods": {
+        "long_name": "VAT for consumption of _rate_house_repair_goods",
+        "description": "VAT for consumption of _rate_house_repair_goods",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.13
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_house_repair_goods_curr_law": {
+        "long_name": "VAT for consumption of _rate_house_repair_goods_curr_law",
+        "description": "VAT for consumption of _rate_house_repair_goods_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.13
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_house_repair_services": {
+        "long_name": "VAT for consumption of _rate_house_repair_services",
+        "description": "VAT for consumption of _rate_house_repair_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_house_repair_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_house_repair_services_curr_law",
+        "description": "VAT for consumption of _rate_house_repair_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_accessories_medical": {
+        "long_name": "VAT for consumption of _rate_household_accessories_medical",
+        "description": "VAT for consumption of _rate_household_accessories_medical",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_accessories_medical_curr_law": {
+        "long_name": "VAT for consumption of _rate_household_accessories_medical_curr_law",
+        "description": "VAT for consumption of _rate_household_accessories_medical_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_electric_equipment": {
+        "long_name": "VAT for consumption of _rate_household_electric_equipment",
+        "description": "VAT for consumption of _rate_household_electric_equipment",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_electric_equipment_curr_law": {
+        "long_name": "VAT for consumption of _rate_household_electric_equipment_curr_law",
+        "description": "VAT for consumption of _rate_household_electric_equipment_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_equipment": {
+        "long_name": "VAT for consumption of _rate_household_equipment",
+        "description": "VAT for consumption of _rate_household_equipment",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_equipment_curr_law": {
+        "long_name": "VAT for consumption of _rate_household_equipment_curr_law",
+        "description": "VAT for consumption of _rate_household_equipment_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_gardening": {
+        "long_name": "VAT for consumption of _rate_household_gardening",
+        "description": "VAT for consumption of _rate_household_gardening",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_gardening_curr_law": {
+        "long_name": "VAT for consumption of _rate_household_gardening_curr_law",
+        "description": "VAT for consumption of _rate_household_gardening_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_goods": {
+        "long_name": "VAT for consumption of _rate_household_goods",
+        "description": "VAT for consumption of _rate_household_goods",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.08
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_goods_curr_law": {
+        "long_name": "VAT for consumption of _rate_household_goods_curr_law",
+        "description": "VAT for consumption of _rate_household_goods_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.08
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_items": {
+        "long_name": "VAT for consumption of _rate_household_items",
+        "description": "VAT for consumption of _rate_household_items",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_items_curr_law": {
+        "long_name": "VAT for consumption of _rate_household_items_curr_law",
+        "description": "VAT for consumption of _rate_household_items_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_repair_services": {
+        "long_name": "VAT for consumption of _rate_household_repair_services",
+        "description": "VAT for consumption of _rate_household_repair_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.12
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_repair_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_household_repair_services_curr_law",
+        "description": "VAT for consumption of _rate_household_repair_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.12
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_services": {
+        "long_name": "VAT for consumption of _rate_household_services",
+        "description": "VAT for consumption of _rate_household_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_household_services_curr_law",
+        "description": "VAT for consumption of _rate_household_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_utensils": {
+        "long_name": "VAT for consumption of _rate_household_utensils",
+        "description": "VAT for consumption of _rate_household_utensils",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_household_utensils_curr_law": {
+        "long_name": "VAT for consumption of _rate_household_utensils_curr_law",
+        "description": "VAT for consumption of _rate_household_utensils_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_interest": {
+        "long_name": "VAT for consumption of _rate_interest",
+        "description": "VAT for consumption of _rate_interest",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_interest_curr_law": {
+        "long_name": "VAT for consumption of _rate_interest_curr_law",
+        "description": "VAT for consumption of _rate_interest_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_jewellery": {
+        "long_name": "VAT for consumption of _rate_jewellery",
+        "description": "VAT for consumption of _rate_jewellery",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_jewellery_curr_law": {
+        "long_name": "VAT for consumption of _rate_jewellery_curr_law",
+        "description": "VAT for consumption of _rate_jewellery_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_legal_services": {
+        "long_name": "VAT for consumption of _rate_legal_services",
+        "description": "VAT for consumption of _rate_legal_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.06
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_legal_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_legal_services_curr_law",
+        "description": "VAT for consumption of _rate_legal_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.06
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_medical_accessories": {
+        "long_name": "VAT for consumption of _rate_medical_accessories",
+        "description": "VAT for consumption of _rate_medical_accessories",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_medical_accessories_curr_law": {
+        "long_name": "VAT for consumption of _rate_medical_accessories_curr_law",
+        "description": "VAT for consumption of _rate_medical_accessories_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_medical_life_saving": {
+        "long_name": "VAT for consumption of _rate_medical_life_saving",
+        "description": "VAT for consumption of _rate_medical_life_saving",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_medical_life_saving_curr_law": {
+        "long_name": "VAT for consumption of _rate_medical_life_saving_curr_law",
+        "description": "VAT for consumption of _rate_medical_life_saving_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_motor_vehicle_four_wheeler": {
+        "long_name": "VAT for consumption of _rate_motor_vehicle_four_wheeler",
+        "description": "VAT for consumption of _rate_motor_vehicle_four_wheeler",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_motor_vehicle_four_wheeler_curr_law": {
+        "long_name": "VAT for consumption of _rate_motor_vehicle_four_wheeler_curr_law",
+        "description": "VAT for consumption of _rate_motor_vehicle_four_wheeler_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_motor_vehicle_two_wheeler": {
+        "long_name": "VAT for consumption of _rate_motor_vehicle_two_wheeler",
+        "description": "VAT for consumption of _rate_motor_vehicle_two_wheeler",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_motor_vehicle_two_wheeler_curr_law": {
+        "long_name": "VAT for consumption of _rate_motor_vehicle_two_wheeler_curr_law",
+        "description": "VAT for consumption of _rate_motor_vehicle_two_wheeler_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_non_motorized_vehicle": {
+        "long_name": "VAT for consumption of _rate_non_motorized_vehicle",
+        "description": "VAT for consumption of _rate_non_motorized_vehicle",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.12
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_non_motorized_vehicle_curr_law": {
+        "long_name": "VAT for consumption of _rate_non_motorized_vehicle_curr_law",
+        "description": "VAT for consumption of _rate_non_motorized_vehicle_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.12
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_other_services": {
+        "long_name": "VAT for consumption of _rate_other_services",
+        "description": "VAT for consumption of _rate_other_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.03
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_other_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_other_services_curr_law",
+        "description": "VAT for consumption of _rate_other_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.03
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_personal_accessories": {
+        "long_name": "VAT for consumption of _rate_personal_accessories",
+        "description": "VAT for consumption of _rate_personal_accessories",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.14
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_personal_accessories_curr_law": {
+        "long_name": "VAT for consumption of _rate_personal_accessories_curr_law",
+        "description": "VAT for consumption of _rate_personal_accessories_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.14
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_personal_accessories_services": {
+        "long_name": "VAT for consumption of _rate_personal_accessories_services",
+        "description": "VAT for consumption of _rate_personal_accessories_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_personal_accessories_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_personal_accessories_services_curr_law",
+        "description": "VAT for consumption of _rate_personal_accessories_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_personal_expenses_religious": {
+        "long_name": "VAT for consumption of _rate_personal_expenses_religious",
+        "description": "VAT for consumption of _rate_personal_expenses_religious",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_personal_expenses_religious_curr_law": {
+        "long_name": "VAT for consumption of _rate_personal_expenses_religious_curr_law",
+        "description": "VAT for consumption of _rate_personal_expenses_religious_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_personal_products": {
+        "long_name": "VAT for consumption of _rate_personal_products",
+        "description": "VAT for consumption of _rate_personal_products",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_personal_products_curr_law": {
+        "long_name": "VAT for consumption of _rate_personal_products_curr_law",
+        "description": "VAT for consumption of _rate_personal_products_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_personal_services": {
+        "long_name": "VAT for consumption of _rate_personal_services",
+        "description": "VAT for consumption of _rate_personal_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_personal_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_personal_services_curr_law",
+        "description": "VAT for consumption of _rate_personal_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_recreation": {
+        "long_name": "VAT for consumption of _rate_recreation",
+        "description": "VAT for consumption of _rate_recreation",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_recreation_curr_law": {
+        "long_name": "VAT for consumption of _rate_recreation_curr_law",
+        "description": "VAT for consumption of _rate_recreation_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_religious_services": {
+        "long_name": "VAT for consumption of _rate_religious_services",
+        "description": "VAT for consumption of _rate_religious_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_religious_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_religious_services_curr_law",
+        "description": "VAT for consumption of _rate_religious_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_rent": {
+        "long_name": "VAT for consumption of _rate_rent",
+        "description": "VAT for consumption of _rate_rent",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_rent_curr_law": {
+        "long_name": "VAT for consumption of _rate_rent_curr_law",
+        "description": "VAT for consumption of _rate_rent_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_restaurant": {
+        "long_name": "VAT for consumption of _rate_restaurant",
+        "description": "VAT for consumption of _rate_restaurant",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_restaurant_curr_law": {
+        "long_name": "VAT for consumption of _rate_restaurant_curr_law",
+        "description": "VAT for consumption of _rate_restaurant_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_sports_recreation_services": {
+        "long_name": "VAT for consumption of _rate_sports_recreation_services",
+        "description": "VAT for consumption of _rate_sports_recreation_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.12
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_sports_recreation_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_sports_recreation_services_curr_law",
+        "description": "VAT for consumption of _rate_sports_recreation_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.12
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_stationery": {
+        "long_name": "VAT for consumption of _rate_stationery",
+        "description": "VAT for consumption of _rate_stationery",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.02
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_stationery_curr_law": {
+        "long_name": "VAT for consumption of _rate_stationery_curr_law",
+        "description": "VAT for consumption of _rate_stationery_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.02
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_tailoring_cleaning": {
+        "long_name": "VAT for consumption of _rate_tailoring_cleaning",
+        "description": "VAT for consumption of _rate_tailoring_cleaning",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_tailoring_cleaning_curr_law": {
+        "long_name": "VAT for consumption of _rate_tailoring_cleaning_curr_law",
+        "description": "VAT for consumption of _rate_tailoring_cleaning_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_tax": {
+        "long_name": "VAT for consumption of _rate_tax",
+        "description": "VAT for consumption of _rate_tax",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_tax_curr_law": {
+        "long_name": "VAT for consumption of _rate_tax_curr_law",
+        "description": "VAT for consumption of _rate_tax_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_telecom_equipment": {
+        "long_name": "VAT for consumption of _rate_telecom_equipment",
+        "description": "VAT for consumption of _rate_telecom_equipment",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_telecom_equipment_curr_law": {
+        "long_name": "VAT for consumption of _rate_telecom_equipment_curr_law",
+        "description": "VAT for consumption of _rate_telecom_equipment_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.05
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_telecom_services": {
+        "long_name": "VAT for consumption of _rate_telecom_services",
+        "description": "VAT for consumption of _rate_telecom_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_telecom_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_telecom_services_curr_law",
+        "description": "VAT for consumption of _rate_telecom_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_transport": {
+        "long_name": "VAT for consumption of _rate_transport",
+        "description": "VAT for consumption of _rate_transport",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.09
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_transport_curr_law": {
+        "long_name": "VAT for consumption of _rate_transport_curr_law",
+        "description": "VAT for consumption of _rate_transport_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.09
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_transport_services": {
+        "long_name": "VAT for consumption of _rate_transport_services",
+        "description": "VAT for consumption of _rate_transport_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_transport_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_transport_services_curr_law",
+        "description": "VAT for consumption of _rate_transport_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_travel": {
+        "long_name": "VAT for consumption of _rate_travel",
+        "description": "VAT for consumption of _rate_travel",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_travel_curr_law": {
+        "long_name": "VAT for consumption of _rate_travel_curr_law",
+        "description": "VAT for consumption of _rate_travel_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_travel_religious": {
+        "long_name": "VAT for consumption of _rate_travel_religious",
+        "description": "VAT for consumption of _rate_travel_religious",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_travel_religious_curr_law": {
+        "long_name": "VAT for consumption of _rate_travel_religious_curr_law",
+        "description": "VAT for consumption of _rate_travel_religious_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_utilities": {
+        "long_name": "VAT for consumption of _rate_utilities",
+        "description": "VAT for consumption of _rate_utilities",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.13
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_utilities_curr_law": {
+        "long_name": "VAT for consumption of _rate_utilities_curr_law",
+        "description": "VAT for consumption of _rate_utilities_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.13
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_vehicle_equipment": {
+        "long_name": "VAT for consumption of _rate_vehicle_equipment",
+        "description": "VAT for consumption of _rate_vehicle_equipment",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_vehicle_equipment_curr_law": {
+        "long_name": "VAT for consumption of _rate_vehicle_equipment_curr_law",
+        "description": "VAT for consumption of _rate_vehicle_equipment_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_vehicle_services": {
+        "long_name": "VAT for consumption of _rate_vehicle_services",
+        "description": "VAT for consumption of _rate_vehicle_services",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.11
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate_vehicle_services_curr_law": {
+        "long_name": "VAT for consumption of _rate_vehicle_services_curr_law",
+        "description": "VAT for consumption of _rate_vehicle_services_curr_law",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.11
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_elasticity_consumption_food_threshold": {
+        "long_name": "VAT for consumption of _elasticity_consumption_food_threshold",
+        "description": "VAT for consumption of _elasticity_consumption_food_threshold",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "bracket",
+        "col_label": [
+            "bracket1",
+            "bracket2",
+            "bracket3"
+        ],
+        "value": [
+            [
+                10000,
+                100000,
+                9e+99
+            ]
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_elasticity_consumption_food_value": {
+        "long_name": "VAT for consumption of _elasticity_consumption_food_value",
+        "description": "VAT for consumption of _elasticity_consumption_food_value",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "bracket",
+        "col_label": [
+            "bracket1",
+            "bracket2",
+            "bracket3"
+        ],
+        "value": [
+            [
+                0.0,
+                0.0,
+                0.0
+            ]
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": -100,
+            "max": 100.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_elasticity_consumption_non_food_threshold": {
+        "long_name": "VAT for consumption of _elasticity_consumption_non_food_threshold",
+        "description": "VAT for consumption of _elasticity_consumption_non_food_threshold",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "bracket",
+        "col_label": [
+            "bracket1",
+            "bracket2",
+            "bracket3"
+        ],
+        "value": [
+            [
+                10000,
+                100000,
+                9e+99
+            ]
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_elasticity_consumption_non_food_value": {
+        "long_name": "VAT for consumption of _elasticity_consumption_non_food_value",
+        "description": "VAT for consumption of _elasticity_consumption_non_food_value",
+        "itr_ref": "VAT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2022"
+        ],
+        "start_year": 2022,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "bracket",
+        "col_label": [
+            "bracket1",
+            "bracket2",
+            "bracket3"
+        ],
+        "value": [
+            [
+                0.0,
+                0.0,
+                0.0
+            ]
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": -100,
+            "max": 100.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    }
+}

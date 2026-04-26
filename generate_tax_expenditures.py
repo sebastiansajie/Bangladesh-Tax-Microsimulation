@@ -121,6 +121,7 @@ def generate_tax_expenditures():
     from taxcalc.utils import dist_variables
 
     f = open('global_vars.json')
+    tax_exp_results = {}
     global_variables = json.load(f)
     #print('global_variables in generate policy revenues ', global_variables)
     verbose = global_variables['verbose']
@@ -178,6 +179,7 @@ def generate_tax_expenditures():
     revenue_dict0={}
     revenue_dict={}
     for tax_type in tax_list:
+        tax_exp_results[tax_type] = []
         revenue_dict[tax_type]={} 
         for year in range(start_year, start_year+1):
             revenue_dict[tax_type][year]={}
@@ -232,8 +234,19 @@ def generate_tax_expenditures():
                         data_row[tax_type] = [k[1:], revenue_dict[tax_type][year]['current_law']['value_bill_str']['All'], 
                                           revenue_dict[tax_type][year]['reform']['value_bill_str']['All'], 
                                           revenue_dict[tax_type][year]['reform']['value_bill_diff_str']['All']]
-
+                        tax_exp_results[tax_type].append({
+                            "Tax Incentive": k[1:],
+                            "Current Law": revenue_dict[tax_type][year]['current_law']['value_bill_str']['All'],
+                            "Benchmark": revenue_dict[tax_type][year]['reform']['value_bill_str']['All'],
+                            "Tax Expenditure": revenue_dict[tax_type][year]['reform']['value_bill_diff_str']['All']
+                        })
                     row_num[tax_type] = display_table(window_dict[tax_type], 
                                                       data = data_row[tax_type], 
                                                       row = row_num[tax_type])
+
+    for tax_type in tax_list:
+        df_out = pd.DataFrame(tax_exp_results[tax_type])
+        filename = f"{tax_type}_tax_expenditure.csv"
+        df_out.to_csv(filename, index=False)
+        print(f"✅ Saved {filename}")
                     
